@@ -1,0 +1,113 @@
+.chat {
+    width: 453px;
+    padding: 16px;
+    background-color: #1E1C1C;
+    border-radius: 5px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.chat-upper__panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat-line{
+    height: 2px;
+    background-color: #B5FF00;
+    margin: 16px 0 16px 0;
+}
+
+.chat-messages {
+    height: 511px;
+    overflow-y: scroll;
+    scrollbar-width: 6px;
+    scrollbar-color: #fefefe;
+}
+
+.chat-message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.chat-message__nickname {
+    margin: 0 10px 0 0;
+}
+
+.nickname-icon {
+    margin-right: 6px;
+}
+
+.nickname-moder {
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+.nickname-vip {
+    margin-right: 10px;
+}
+
+.nickname--red {
+    color: #BB0000;
+}
+
+.nickname--purple {
+    color: #DB00D2;
+}
+
+.nickname--blue {
+    color: #0500FF;
+}
+
+.nickname--green {
+    color: #009D06;
+}
+
+.nickname--orange {
+    color: #FF8A00;
+}
+
+.chat-input {
+    width: 421px;
+    height: 40px;
+    border: 2px solid #818181;
+    border-radius: 2px;
+    background-color: transparent;
+    padding: 0 16px 0 16px;
+    font-size: 16px;
+    background: url(../img/Happy.png) right no-repeat;
+    background-origin: content-box;
+    margin-bottom: 12px;
+    color: #fefefe;
+}
+
+.chat-bottom__panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat-points {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 92px;
+}
+
+.settings__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 128px;
+}

@@ -1,0 +1,96 @@
+.sidebars {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.sidebar {
+    width: 217px;
+    padding: 20px 16px 20px 16px;
+    background-color: #1E1C1C;
+    border-radius: 5px;
+}
+
+.heading_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author_list {
+    margin-top: 18px;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.author_information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.author-image {
+    margin-right: 12px;
+}
+
+.online {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.online-dot {
+    background-color: #B5FF00;
+    border-radius: 100%;
+    width: 6px;
+    height: 6px;
+    margin-right: 8px;
+}
+
+.online-dot--hidden {
+    background-color: #1E1C1C;
+    border-radius: 100%;
+    width: 6px;
+    height: 6px;
+    margin-right: 8px;
+}
+
+.new_people {
+    margin-top: 46px;
+}
+
+.tags-text {
+    font-size: 8px;
+    color: #fefefe;
+    padding: 3px 5px 3px 5px;
+    border: 1px solid #B5FF00;
+    border-radius: 2px;
+    width: fit-content;
+    margin: 8px 6px 0 0;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar-wrapped {
+    background-color: #1E1C1C;
+    padding: 24px 12px 24px 12px;
+    width: 98px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}

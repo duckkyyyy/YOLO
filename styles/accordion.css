@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+}
+
+summary::marker {
+    content: "";
+}
+
+summary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 30px 0 30px;
+}
+
+.points_arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 124px;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.points-completed {
+    color: #B5FF00;
+}
+
+.points-uncompleted {
+    color: #fefefe;
+}
+
+.achievement--completed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.achievements-separator{
+    height: 1px;
+    width: 1103px;
+    background-color: #818181;
+    margin: 20px 0 20px 0;
+}
+
+.accordion {
+	width: 1163px;
+    border-radius: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+details {
+	background-color: #1E1E1E;
+	margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+details > summary {
+	color: #fefefe;
+	cursor: pointer;
+    border-radius: 5px;
+}
+
+details > .achievements {
+	padding: 0 30px 30px 30px;
+	color: #fefefe;
+    border-radius: 5px;
+}

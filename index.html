@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLO ui kit</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/typography.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/inputs.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/chat.css">
+    <link rel="stylesheet" href="styles/accordion.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p class="h2--kit">Сетка</p>
+    <p class="text--comment">12-колоночная, с отступами по 20px</p>
+    <div class="grid-container">
+                <div class="row">
+                    <div class="col col--size-1">
+                        <div class="grid-style"></div>
+                    </div>
+                    <div class="col col--size-1">
+                        <div class="grid-style"></div>
+                    </div>
+                    <div class="col col--size-1">
+                        <div class="grid-style">
+                            <div class="grid-style"></div>
+                        </div>
+                    </div>
+                    <div class="col col--size-1">
+                        <div class="grid-style"></div>
+                    </div>
+                    <div class="col col--size-1">
+                        <div class="grid-style"></div>
+                    </div>
+                    <div class="col col--size-1">
+                        <div class="grid-style"></div>
+                    </div>
+                    <div class="col col--size-1">
+                        <div class="grid-style"></div>
+                    </div>
+                    <div class="col col--size-1">
+                        <div class="grid-style"></div>
+                    </div>
+                    <div class="col col--size-1">
+                        <div class="grid-style"></div>
+                    </div>
+                    <div class="col col--size-1">
+                        <div class="grid-style"></div>
+                    </div>
+                    <div class="col col--size-1">
+                        <div class="grid-style"></div>
+                    </div>
+                    <div class="col col--size-1">
+                        <div class="grid-style"></div>
+                    </div>
+                </div>
+    </div>
+
+    <hr>
+
+    <p class="h2--kit">Пример использования сетки</p>
+    <p class="text--comment">Главный экран</p>
+    <div class="grid-showcase">
+        <div class="row">
+            <div class="col col--size-12">
+                <div class="grid-header"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col--size-2">
+                <div class="grid-sidebar"></div>
+            </div>
+                <div class="col col--size-10">
+                    <div class="content">
+                        <div class="col col--size-5">
+                            <div class="text"></div>
+                        </div>
+                        <div class="row--video">
+                            <div class="col col--size-8">
+                                <div class="previous--video"></div>
+                            </div>
+                            <div class="col col--size-4">
+                                <div class="next--video"></div>
+                            </div>
+                        </div>
+                            <div class="col col--size-5">
+                                <div class="text"></div>
+                            </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col col--size-2">
+                <div class="card"></div>
+            </div>
+            <div class="col col--size-3">
+                <div class="card"></div>
+            </div>
+            <div class="col col--size-3">
+                <div class="card"></div>
+            </div>
+            <div class="col col--size-2">
+                <div class="card"></div>
+            </div>
+            <div class="col col--size-2">
+                <div class="card"></div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <p class="h2--kit">Типографика</p>
+    <p class="text--comment">Шрифт — Montserrat</p>
+    <div class="typography">
+        <div class="typography-headers">
+            <h2>H2</h2>
+            <h3>H3</h3>
+            <h4>H4</h4>
+            <h5>H5</h5>
+        </div>
+        <div class="typography-headers--italic">
+            <h2 class="h2--italic">H2 italic</h2>
+            <h3 class="h3--italic">H3 italic</h3>
+            <h4 class="h4--italic">H4 italic</h4>
+            <h5 class="h5--italic">H5 italic</h5>
+        </div>
+        <div class="typography-text">
+            <p class="text--24-medium">24px medium</p>
+            <p class="text--24-bold">24px bold</p>
+            <p class="text--20-medium">20px medium</p>
+            <p class="text--20-semibold">20px semibold</p>
+            <p class="text--16-medium">16px medium</p>
+            <p class="text--16-bold">16px bold</p>
+            <p class="text--14-medium">14px medium</p>
+            <p class="text--14-semibold">14px semibold</p>
+            <p class="text--14-bold">14px bold</p>
+            <p class="text--12-medium">12px medium</p>
+            <p class="text--10-medium">10px medium</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <p class="h2--kit">Кнопки</p>
+    <div class="buttons">
+        <div class="buttons-primary">
+            <button class="button button-primary--big">Primary button/Big</button>
+            <button class="button-primary--small">Primary button/Small</button>
+        </div>
+        <div class="buttons-secondary">
+            <button class="button button-secondary--big">Secondary button/Big</button>
+            <button class="button-secondary--small">Secondary button/Small</button>
+        </div>
+        <div class="button-showmore--full">
+            <button class="button-showmore">Показать еще</button>
+            <img src="../YOLO/img/arrow-down.svg">
+        </div>
+    </div>
+
+    <hr>
+
+    <p class="h2--kit">Теги</p>
+    <div class="button-tags">
+        <button class="button button-tag--big tag-stroke--white">Tag/Big</button>
+        <button class="button button-tag--small tag-stroke--white">Tag/Small</button>
+        <button class="button button-tag--small tag-stroke--green">Tag/Small <img src="../YOLO/img/tag_plus.png"></button>
+        <button class="button button-tag--small tag-bg--green">Tag/Small <img src="../YOLO/img/tag_cross.png"></button>
+    </div>
+
+    <hr>
+
+    <p class="h2--kit">Инпуты</p>
+    <div class="inputs">
+        <div class="inputs-textpassword">
+            <div class="inputs-text">
+                <input type="text" class="input input-text">
+                <input type="text" class="input input-text--invalid">
+                <p class="text-input--invalid">Неверное имя пользователя</p>
+            </div>
+            <div class="inputs-password">
+                <div class="input-password__witheye">
+                    <input type="password" class="input password input-password">
+                    <button class="input-password--eye"><img src="../YOLO/img/Eye.svg"></button>
+                </div>
+            <div class="input-password__witheye">
+                <input type="password" class="input password input-password--invalid">
+                <button class="input-password--eye"><img src="../YOLO/img/Eye.svg"></button>
+                <p class="text-input--invalid">Неверный пароль</p>
+            </div>
+            </div>
+            <div class="inputs-password--indicator">
+                <div class="input-password__witheye">
+                    <input type="password" class="input password input-password--weak">
+                    <button class="input-password--eye"><img src="../YOLO/img/Eye.svg"></button>
+                    <div class="indicator-weak">
+                        <img src="../YOLO/img/weak.png" class="indicator">
+                        <p class="text-input--invalid">Слабый</p>
+                    </div>
+                </div>
+                <div class="input-password__witheye">
+                    <input type="password" class="input password input-password--medium">
+                    <button class="input-password--eye"><img src="../YOLO/img/Eye.svg"></button>
+                    <div class="indicator-weak">
+                        <img src="../YOLO/img/medium.png" class="indicator">
+                        <p class="text-input--medium">Средний</p>
+                    </div>
+                </div>
+                <div class="input-password__witheye">
+                    <input type="password" class="input password input-password--strong">
+                    <button class="input-password--eye"><img src="../YOLO/img/Eye.svg"></button>
+                    <div class="indicator-weak">
+                        <img src="../YOLO/img/strong.png" class="indicator">
+                        <p class="text-input--valid">Надежный</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="inputs-radiocheckbox">
+            <div class="inputs-radio">
+                <p class="text--20-medium input-header">Я хочу...</p>
+                <div class="input-radio">
+                    <label class="input-radio">
+                        <input type="radio" name="choose" value="watch" class="input-radio__native">
+                        <span class="input-radio__content">Только смотреть</span>
+                    </label>
+                </div>
+                <div class="input-radio">
+                    <label class="input-radio">
+                        <input type="radio" name="choose" value="stream" class="input-radio__native">
+                        <span class="input-radio__content">Только стримить</span>
+                    </label>
+                </div>
+                <div class="input-radio">
+                    <label class="input-radio">
+                        <input type="radio" name="choose" value="both" class="input-radio__native">
+                        <span class="input-radio__content">И смотреть, и стримить</span>
+                    </label>
+                </div>
+            </div>
+            <div class="inputs-checkbox">
+                <p class="text--20-medium input-header">Выберите интересующие вас категории:</p>
+                <div class="input-checkbox">
+                    <img src="../YOLO/img/Resident.png">
+                    <label for="resident">Resident Evil 4 Remake</label>
+                    <input type="checkbox" id="resident">
+                </div>
+                <div class="input-checkbox">
+                    <img src="../YOLO/img/Travel.png">
+                    <label for="travel">Путешествия</label>
+                    <input type="checkbox" id="travel">
+                </div>
+                <div class="input-checkbox">
+                    <img src="../YOLO/img/Genshin.png">
+                    <label for="genshin">Genshin Impact</label>
+                    <input type="checkbox" id="genshin">
+                </div>
+                <div class="input-checkbox">
+                    <img src="../YOLO/img/Chatting.png">
+                    <label for="chatting">Общение</label>
+                    <input type="checkbox" id="chatting">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <p class="h2--kit">Аккордеон</p>
+    <p class="text--comment">Достижения в настройках профиля стримера</p>
+    <div class="accordion">
+        <details>
+            <summary>
+                <p class="text--24-medium">Делу — время II</p>
+                <div class="points_arrow">
+                    <div class="points">
+                        <p class="text--20-semibold points-completed">1</p>
+                        <p class="text--16-medium points-uncompleted">/4</p>
+                    </div>
+                    <img  src="../YOLO/img/стрелочка.png">
+                </div>
+            </summary>
+            <div class="achievements">
+                <div class="achievement">
+                    <p class="text--16-medium">Ведите трансляции 7 дней подряд</p>
+                </div>
+                <div class="achievements-separator"></div>
+                <div class="achievement achievement--completed">
+                    <p class="text--16-medium">Ведите трансляции 5 дней подряд</p>
+                    <div class="button button-tag--small tag-bg--green">Выполнено</div>
+                </div>
+                <div class="achievements-separator"></div>
+                <div class="achievement">
+                    <p class="text--16-medium">Ведите трансляции в сумме 200 часов</p>
+                </div>
+                <div class="achievements-separator"></div>
+                <div class="achievement">
+                    <p class="text--16-medium">Ведите трансляции в сумме 100 часов</p>
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary>
+                <p class="text--24-medium">А чего добился ты? II</p>
+                <div class="points_arrow">
+                    <div class="points">
+                        <p class="text--20-semibold points-completed">2</p>
+                        <p class="text--16-medium points-uncompleted">/5</p>
+                    </div>
+                    <img  src="../YOLO/img/стрелочка.png">
+                </div>
+            </summary>
+            <div class="achievements">
+                <div class="achievement">
+                    <p class="text--16-medium">Выложите 100 видео для платных подписчиков</p>
+                </div>
+                <div class="achievements-separator"></div>
+                <div class="achievement achievement--completed">
+                    <p class="text--16-medium">Выложите 50 видео для платных подписчиков</p>
+                    <div class="button button-tag--small tag-bg--green">Выполнено</div>
+                </div>
+                <div class="achievements-separator"></div>
+                <div class="achievement">
+                    <p class="text--16-medium">Достигните 100 платных подписчиков</p>
+                </div>
+                <div class="achievements-separator"></div>
+                <div class="achievement achievement--completed">
+                    <p class="text--16-medium">Достигните 50 платных подписчиков</p>
+                    <div class="button button-tag--small tag-bg--green">Выполнено</div>
+                </div>
+                <div class="achievements-separator"></div>
+                <div class="achievement">
+                    <p class="text--16-medium">Наберите в сумме 500 просмотров на видео для платных подписчиков</p>
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary>
+                <p class="text--24-medium">Вот и слава II</p>
+                <div class="points_arrow">
+                    <div class="points">
+                        <p class="text--20-semibold points-completed">3</p>
+                        <p class="text--16-medium points-uncompleted">/5</p>
+                    </div>
+                    <img  src="../YOLO/img/стрелочка.png">
+                </div>
+            </summary>
+            <div class="achievements">
+                <div class="achievement">
+                    <p class="text--16-medium">Наберите 1000 фолловеров</p>
+                </div>
+                <div class="achievements-separator"></div>
+                <div class="achievement achievement--completed">
+                    <p class="text--16-medium">Наберите 500 фолловеров</p>
+                    <div class="button button-tag--small tag-bg--green">Выполнено</div>
+                </div>
+                <div class="achievements-separator"></div>
+                <div class="achievement">
+                    <p class="text--16-medium">Достигните среднего онлайна в 200 зрителей</p>
+                </div>
+                <div class="achievements-separator"></div>
+                <div class="achievement achievement--completed">
+                    <p class="text--16-medium">Достигните среднего онлайна в 100 зрителей</p>
+                    <div class="button button-tag--small tag-bg--green">Выполнено</div>
+                </div>
+                <div class="achievements-separator"></div>
+                <div class="achievement achievement--completed">
+                    <p class="text--16-medium">Достигните в сумме 2000 просмотров на своих трансляциях</p>
+                    <div class="button button-tag--small tag-bg--green">Выполнено</div>
+                </div>
+            </div>
+        </details>
+    </div>
+
+    <hr>
+
+    <p class="h2--kit">Модальное окно</p>
+    <p class="text--comment">Вход на платформу</p>
+    <div class="modal">
+        <button class="button button-primary--big modal-button" id="modal-button">Войти</button>
+            <div class="login hidden" id="login">
+                <div class="modal__overlay hidden" id="modal__overlay"></div>
+                <div class="login-content">
+                    <div class="login-upper_panel">
+                        <div class="logo_cross">
+                            <img src="../YOLO/img/logo.png" class="login-logo">
+                            <img src="../YOLO/img/cross.png" id="modal-close">
+                        </div>
+                        <div class="login_signin">
+                            <h5 class="login-text--green">Войти</h5>
+                            <p class="text--16-medium">Зарегистрироваться</p>
+                        </div>
+                    </div>
+                    <div class="login-inputs">
+                        <div class="login-input">
+                            <p class="text--14-semibold">Имя пользователя</p>
+                            <input type="text" class="input input-text">
+                        </div>
+                        <div class="login-input">
+                            <p class="text--14-semibold">Пароль</p>
+                            <div class="input-password__witheye">
+                                <input type="password" class="input password input-password">
+                                <button class="input-password--eye"><img src="../YOLO/img/Eye.svg"></button>
+                            </div>
+                            <p class="login-bottom__text">Проблема со входом в систему?</p>
+                        </div>
+                        <button class="button button-primary--big button-login">Войти</button>
+                </div>
+                </div>
+        </div>
+        
+    </div>
+
+    <hr>
+
+    <p class="h2--kit">Шапка</p>
+    <div class="header">
+        <div class="left_panel">
+            <img src="../YOLO/img/logo.png" class="logo">
+            <div class="button-rec--full">
+                <button class="button-rec" id="button-rec">Рекомендации</button>
+                <img src="../YOLO/img/arrow-down.svg" class="rec-arrow">
+            </div>
+            <input type="text" class="header-search" placeholder="Поиск">
+        </div>
+        <div class="right_panel">
+            <img src="../YOLO/img/messages.png" class="header-icon--messages">
+            <img src="../YOLO/img/notifications.png" class="header-icon--notifications">
+            <img src="../YOLO/img/profile_photo.png" class="profile_photo">
+        </div>
+    </div>
+
+    <ul class="dropdown hidden" id="dropdown">
+        <li>Моя волна</li>
+        <li>Каналы</li>
+        <li>Категории</li>
+        <li>Новые люди</li>
+        <li>Популярное</li>
+    </ul>
+
+    <hr>
+
+    <p class="h2--kit">Боковое меню</p>
+    <p class="text--comment">Раскрытое и скрытое</p>
+    <div class="sidebars">
+        <div class="sidebar">
+            <div class="heading_wrap">
+                <h5>Отслеживаемые <br> каналы</h5>
+                <img src="../YOLO/img/Свернуть.png">
+            </div>
+            <div class="author_list">
+                <div class="author">
+                    <div class="author_information">
+                        <img src="../YOLO/img/Иконка профиля1.png" class="author-image">
+                        <p class="text--12-medium">KRASOVЗ</p>
+                    </div>
+                    <div class="online">
+                        <div class="online-dot"></div>
+                        <p class="text--12-medium">126</p>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="author_information">
+                        <img src="../YOLO/img/Иконка профиля2.png" class="author-image">
+                        <p class="text--12-medium">AxeSay</p>
+                    </div>
+                    <div class="online">
+                        <div class="online-dot"></div>
+                        <p class="text--12-medium">1 тыс.</p>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="author_information">
+                        <img src="../YOLO/img/Иконка профиля3.png" class="author-image">
+                        <p class="text--12-medium">shadovv_man</p>
+                    </div>
+                    <div class="online">
+                        <div class="online-dot--hidden"></div>
+                        <p class="text--12-medium"> </p>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="author_information">
+                        <img src="../YOLO/img/Иконка профиля4.png" class="author-image">
+                        <p class="text--12-medium">ask_jesus</p>
+                    </div>
+                    <div class="online">
+                        <div class="online-dot--hidden"></div>
+                        <p class="text--12-medium"> </p>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="author_information">
+                        <img src="../YOLO/img/Иконка профиля5.png" class="author-image">
+                        <p class="text--12-medium">lovemonkey</p>
+                    </div>
+                    <div class="online">
+                        <div class="online-dot--hidden"></div>
+                        <p class="text--12-medium"> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="new_people">
+                <h5>Новые авторы</h5>
+                <div class="tags">
+                    <p class="tags-text">DOTA 2</p>
+                    <p class="tags-text">Genshin Impact</p>
+                    <p class="tags-text">Общение</p>
+                </div>
+                <div class="author_list">
+                    <div class="author">
+                        <div class="author_information">
+                            <img src="../YOLO/img/Иконка профиля6.png" class="author-image">
+                            <p class="text--12-medium">AkIne</p>
+                        </div>
+                        <div class="online">
+                            <div class="online-dot"></div>
+                            <p class="text--12-medium">123</p>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <div class="author_information">
+                            <img src="../YOLO/img/Иконка профиля7.png" class="author-image">
+                            <p class="text--12-medium">Glin</p>
+                        </div>
+                        <div class="online">
+                            <div class="online-dot"></div>
+                            <p class="text--12-medium">11</p>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <div class="author_information">
+                            <img src="../YOLO/img/Иконка профиля8.png" class="author-image">
+                            <p class="text--12-medium">rozhdestvina</p>
+                        </div>
+                        <div class="online">
+                            <div class="online-dot"></div>
+                            <p class="text--12-medium">8</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="sidebar-wrapped">
+            <img src="../YOLO/img/Раскрыть.png">
+            <img src="../YOLO/img/Иконка профиля1 Большая.png">
+            <img src="../YOLO/img/Иконка профиля2 Большая.png">
+            <img src="../YOLO/img/Иконка профиля3 Большая.png">
+            <img src="../YOLO/img/Иконка профиля4 Большая.png">
+            <img src="../YOLO/img/Иконка профиля5 Большая.png">
+        </div>
+    </div>
+
+    <hr>
+
+    <p class="h2--kit">Чат</p>
+    <div class="chat">
+        <div class="chat-upper__panel">
+            <img src="../YOLO/img/Свернуть.png">
+            <h4>Чат трансляции</h4>
+            <img src="../YOLO/img/коммьюнити.png">
+        </div>
+        <div class="chat-line"></div>
+        <div class="chat-messages" id="chat-messages">
+            <div class="chat-message">
+                <img src="../YOLO/img/Иконка подписчика1.png" class="nickname-icon">
+                <p class="text--14-bold chat-message__nickname nickname--red">kumattova</p>
+                <p class="text--14-medium">Всем привет!</p>
+            </div>
+            <div class="chat-message">
+                <img src="../YOLO/img/Иконка подписчика2.png" class="nickname-icon">
+                <img src="../YOLO/img/вип.png" class="nickname-vip">
+                <p class="text--14-bold chat-message__nickname nickname--purple">m1lkas</p>
+                <p class="text--14-medium">чатик приветики</p>
+            </div>
+            <div class="chat-message">
+                <p class="text--14-bold chat-message__nickname nickname--blue">rateru</p>
+                <p class="text--14-medium">как делишки?</p>
+            </div>
+            <div class="chat-message">
+                <img src="../YOLO/img/Иконка подписчика1.png" class="nickname-icon">
+                <img src="../YOLO/img/вип.png">
+                <img src="../YOLO/img/модератор.png" class="nickname-moder">
+                <p class="text--14-bold chat-message__nickname nickname--green">m1lka</p>
+                <p class="text--14-medium">Успела прийти домой прямо к стриму, ура</p>
+            </div>
+            <div class="chat-message">
+                <img src="../YOLO/img/Иконка подписчика1.png" class="nickname-icon">
+                <p class="text--14-bold chat-message__nickname nickname--orange">moroshka</p>
+                <p class="text--14-medium">а че как поздно стрим начался</p>
+            </div>
+            <div class="chat-message">
+                <img src="../YOLO/img/вип.png" class="nickname-vip">
+                <p class="text--14-bold chat-message__nickname nickname--purple">semaginowl</p>
+                <p class="text--14-medium">здарова</p>
+            </div>
+            <div class="chat-message">
+                <img src="../YOLO/img/вип.png" class="nickname-vip">
+                <p class="text--14-bold chat-message__nickname nickname--purple">semaginowl</p>
+                <p class="text--14-medium">я к вам ненадолго, сегодня работаю в ночную смену</p>
+            </div>
+            <div class="chat-message">
+                <p class="text--14-bold chat-message__nickname nickname--red">d_duckky</p>
+                <p class="text--14-medium">всем привет котики!!!</p>
+            </div>
+            <div class="chat-message">
+                <p class="text--14-bold chat-message__nickname nickname--blue">luhikk</p>
+                <p class="text--14-medium">@d_duckky привет солнце</p>
+            </div>
+            <div class="chat-message">
+                <img src="../YOLO/img/модератор.png" class="nickname-moder">
+                <p class="text--14-bold chat-message__nickname nickname--purple">an1z0n</p>
+                <p class="text--14-medium">денис привет, как день, что кушал сегодня?</p>
+            </div>
+        </div>
+        <div class="chat-bottom__panel">
+            <input type="text" placeholder="Отправить сообщение" class="chat-input" id="chat-input">
+            <div class="chat-points">
+                <img src="../YOLO/img/иконка баллов канала.png">
+                <p class="text--16-medium">1,7 тыс.</p>
+            </div>
+            <div class="settings__button">
+                <img src="../YOLO/img/Settings.png">
+                <button class="button-primary--small" id="chat-button">Отправить</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../YOLO/utilites/dropdown.js"></script>
+    <script src="../YOLO/utilites/chat.js"></script>
+    <script src="../YOLO/utilites/modal.js"></script>
+    <script src="../YOLO/utilites/password.js"></script>
+</body>
+</html>

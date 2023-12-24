@@ -1,0 +1,163 @@
+.typography {
+    margin: 0 80px 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefefe;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: #fefefe;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fefefe;
+    margin: 0;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fefefe;
+    margin: 0;
+}
+
+.h2--italic {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    font-style: italic;
+}
+
+.h3--italic {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    font-style: italic;
+}
+
+.h4--italic {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: italic;
+}
+
+.h5--italic {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    font-style: italic;
+}
+
+.text--24-medium {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fefefe;
+}
+
+.text--24-bold {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fefefe;
+}
+
+.text--20-medium {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fefefe;
+}
+
+.text--20-semibold {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fefefe;
+}
+
+.text--16-medium {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fefefe;
+    margin: 0;
+}
+
+.text--16-bold {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px; 
+    color: #fefefe;
+}
+
+.text--14-medium {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fefefe;
+}
+
+.text--14-semibold {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fefefe;
+}
+
+.text--14-bold {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fefefe;
+}
+
+.text--12-medium {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fefefe;
+}
+
+.text--10-medium {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    color: #fefefe;
+}
+
+.typography-headers {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.typography-headers--italic {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.typography-text {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
